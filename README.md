@@ -1,4 +1,6 @@
 Github link: https://camilamdalcol.github.io/glow_spa/
+Images source: https://www.vecteezy.com/
+Render: I'm having problems rendering in Render, but the site is working on github. I hope to correct the error soon to send the render link.
 
 # Glow Spa Website - Camila Miranda Dal Col
 
