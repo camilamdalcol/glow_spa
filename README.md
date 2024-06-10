@@ -1,4 +1,4 @@
-# Glow Spa Website
+# Glow Spa Website - Camila Miranda Dal Col
 
 Welcome to the Glow Spa website repository!
 
