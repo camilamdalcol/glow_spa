@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Spa - Registro</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="../static/img/fav-icon.png" type="image/x-icon" />
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <!-- Box Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="index.html" class="logo">Glow Spa</a>
+            <!-- Navbar -->
+            <div class="navbar">
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="testimonial.html" class="nav-link">Testimonial</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                <a href="register.html" class="register-btn btn">Register</a>
+            </div>
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+    
+    <!-- Register Section -->
+    <section class="register container">
+        <h2 class="heading">Register</h2>
+        <div class="register-form">
+            <form id="registerForm" action="/register.html" method="POST" autocomplete="on">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" autocomplete="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" autocomplete="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="confirm_password">Confirm Password:</label>
+                    <input type="password" id="confirm_password" name="confirm_password" required>
+                </div>
+                <div class="form-group">
+                    <span id="passwordError" style="color:red;"></span>
+                </div>
+                <button type="submit" id="registerBtn" class="btn">Register</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="index.html" class="logo">Glow Spa</a>
+                <div class="social">
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><i class="bx bxl-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Services</h3>
+                <a href="index.html#services">Skin</a>
+                <a href="index.html#services">Hair</a>
+                <a href="index.html#services">Manicure</a>
+            </div>
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>United States</p>
+                <p>Japan</p>
+                <p>Germany</p>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; Glow Spa 2024</p>
+    </div>
+
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!-- Link To JS -->
+    <script src="../static/js/main.js"></script>
+    
+ 
+        
+</body>
+</html>

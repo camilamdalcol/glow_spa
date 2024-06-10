@@ -1,0 +1,20 @@
+# Python bytecode files
+*.pyc
+
+# Python virtual environment directory
+venv/
+
+# Database migrations directory
+migrations/
+
+# Python metadata and cache files
+*.pyvenv
+pip-wheel-metadata/
+pip-compile*
+
+# Environment-specific configuration files
+*.cfg
+*.ini
+*.conf
+
+

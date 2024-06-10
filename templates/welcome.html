@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glow Spa - Welcome</title>
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="../static/img/fav-icon.png" type="image/x-icon" />
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="../static/css/style.css" />
+    <!-- Box Icons -->
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Calendar -->
+    <!-- CSS do Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS do Bootstrap Datepicker -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <!-- Nav -->
+        <div class="nav container">
+            <!-- Logo -->
+            <a href="index.html" class="logo">Glow Spa</a>
+            <!-- Navbar -->
+            <div class="navbar">
+                <li><a href="about.html" class="nav-link">About Us</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="testimonial.html" class="nav-link">Testimonial</a></li>
+                <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+                <a href="register.html" class="register-btn btn">Register</a>
+            </div>
+            <!-- Menu Icon -->
+            <div class="menu-icon">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Calendar Section -->
+    <section class="calendar-section container">
+        <h2 class="heading">Book Your Appointment</h2>
+        <div id="datepicker"></div>
+    </section>
+
+    <!-- Footer -->
+    <section class="footer">
+        <div class="footer-container container">
+            <div class="footer-box">
+                <a href="index.html" class="logo">Glow Spa</a>
+                <div class="social">
+                    <a href="#"><i class="bx bxl-facebook"></i></a>
+                    <a href="#"><i class="bx bxl-twitter"></i></a>
+                    <a href="#"><i class="bx bxl-instagram"></i></a>
+                    <a href="#"><i class="bx bxl-youtube"></i></a>
+                </div>
+            </div>
+            <div class="footer-box">
+                <h3>Services</h3>
+                <a href="index.html#services">Skin</a>
+                <a href="index.html#services">Hair</a>
+                <a href="index.html#services">Manicure</a>
+            </div>
+            <div class="footer-box">
+                <h3>Legal</h3>
+                <a href="#">Privacy</a>
+                <a href="#">Refund Policy</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+            <div class="footer-box">
+                <h3>Contact</h3>
+                <p>United States</p>
+                <p>Japan</p>
+                <p>Germany</p>
+            </div>
+        </div>
+    </section>
+    <div class="copyright">
+        <p>&#169; Glow Spa 2024</p>
+    </div>
+
+    <!-- Link JavaScript Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- Link To JS -->
+    <script src="../static/js/main.js"></script>
+    <!-- JS do jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- JS do Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- JS do Bootstrap Datepicker -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+
+
+    <script>
+        $(document).ready(function(){
+            $('#datepicker').datepicker({
+                autoclose: true, // fecha o calendário ao selecionar uma data
+                todayHighlight: true, // destaca o dia atual
+                orientation: 'bottom', // exibe o calendário abaixo do campo de entrada
+            }).focus(); // foca no campo de entrada ao carregar a página
+        });
+    </script>
+    
+</body>
+</html>
