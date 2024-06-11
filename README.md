@@ -51,7 +51,9 @@ Live Demo
 You can see a live demo of the website at the following links:
 
 GitHub Pages: [Glow Spa Website](https://camilamdalcol.github.io/glow_spa/)
+https://camilamdalcol.github.io/glow_spa/
 Render: [Glow Spa on Render](https://glow-spa.onrender.com)
+https://glow-spa.onrender.com
 Images Source: 
 The images used in this project are sourced from Vecteezy.
 
