@@ -1,4 +1,5 @@
 Glow Spa Website - Camila Miranda Dal Col
+
 Welcome to the Glow Spa website repository!
 
 Description
@@ -12,8 +13,11 @@ Gallery: View photos of our spa facilities and treatment rooms to get a glimpse 
 Contact Information: Find our contact details and location information for easy access.
 
 Technologies Used
+
 Frontend: HTML, CSS, JavaScript
+
 Database: PostgreSQL
+
 Backend:
 - Python (Flask framework)
 - Flask-WTF (for web forms)
