@@ -13,8 +13,13 @@ Contact Information: Find our contact details and location information for easy 
 
 Technologies Used
 Frontend: HTML, CSS, JavaScript
-Backend: Python (Flask framework)
-Database: SQLite
+Database: PostgreSQL
+Backend:
+- Python (Flask framework)
+- Flask-WTF (for web forms)
+- Flask-SQLAlchemy (for SQL database integration in Flask)
+- Werkzeug (for password security and hashing)
+- Flask Blueprints (for modularizing and organizing the code)
 
 Getting Started
 To run the Glow Spa website locally, follow these steps:
