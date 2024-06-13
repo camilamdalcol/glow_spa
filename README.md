@@ -38,6 +38,13 @@ Run the Flask application: Execute the command python app.py to start the Flask 
 
 Access the website in your browser: Open your browser and go to http://localhost:8080 to view the website.
 
+Using Gunicorn (Production)
+Deploy using Gunicorn on localhost:8080:
+
+gunicorn -b 0.0.0.0:8080 app:app
+Access the application at http://localhost:8080.
+
+
 Note
 Ensure you are using a virtual environment (virtualenv) to avoid dependency conflicts. To create and activate a virtual environment, follow these commands:
 
